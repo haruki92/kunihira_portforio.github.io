@@ -471,7 +471,22 @@ footer #thank.appear {
   h2 {
     font-size: 2rem!important;
   }
+  .pic::before {
+    top: -25px;
+    left: -35px;
+  }
+  .pic::after {
+    bottom: -25px;
+    right: -35px;
+  }
+
+
 }
+
+
+
+
+
 
 @media screen and (max-width:700px) {
   h1 {
@@ -541,8 +556,9 @@ footer #thank.appear {
   .skills .slider img {
     width: 190px!important;
     height: 190px!important;
+    z-index: 100;
   }
-
+  
   .skills .slide-container {
     width: 200px!important;
     height: 200px!important;
@@ -557,9 +573,9 @@ footer #thank.appear {
   
 
   .slider {
-    width: 60%;
     margin: 0 auto;
   }
+
   
 
   footer .contact svg {
