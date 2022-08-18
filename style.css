@@ -556,7 +556,6 @@ footer #thank.appear {
   .skills .slider img {
     width: 190px!important;
     height: 190px!important;
-    z-index: 100;
   }
   
   .skills .slide-container {
