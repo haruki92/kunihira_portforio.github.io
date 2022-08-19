@@ -547,6 +547,7 @@ footer #thank.appear {
   
   .pic::before,
   .pic::after {
+    width: 15vw;
     height: 25px;
   }
   
