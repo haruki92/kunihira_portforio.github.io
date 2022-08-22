@@ -616,4 +616,8 @@ footer #thank.appear {
   footer .contact .skill-title::before{
     margin-right: 1rem;
   }
+   footer #thank {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
