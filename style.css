@@ -619,5 +619,6 @@ footer #thank.appear {
    footer #thank {
     width: 80%;
     margin: 0 auto;
+    text-align: center;
   }
 }
